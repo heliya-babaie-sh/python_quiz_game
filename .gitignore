@@ -1,2 +1,10 @@
+#python cache
 __pycache__/
+# quiz result
 result.txt
+#private envoriment file
+.env
+#log files
+*.log
+
+*.pyc
