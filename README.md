@@ -1,5 +1,5 @@
 # Python Quize Game
-A simple quize game build with python
+![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 ## Table of contents
   
 - [Features](#features)  
@@ -34,21 +34,34 @@ A simple quize game build with python
 ## Project Structure
 ```text
 python_quiz_game/
+│   .env.example
 │   main.py
 │   question.py
-|    requirements.txt
-│   .env.example
-│   .gitignore
 │   README.md
+│   requirements.txt
+├───gifts
+│       quiz_demo.gif
+├───pictures
+│       1.png
+│       2.png
+│       3.png
+└───
 ```
 ### File Description 
-- ` main.py ` - main file used to run quiz game
-- `  question.py ` - stores questions and answers
-- `requirements.txt` - lists the python packages needed for the project.
-- `.env.example ` - shows the envoiment variables needed by the project
-- `.gitignore ` - tells git which files and folders shold not be tracket
-- `.README.md ` - contains  the project documentation
-
+| file | description | 
+| --- | --- | 
+| ` main.py ` | main file used to run quiz game |
+| `  question.py ` | stores questions and answers |
+| `requirements.txt` | lists the python packages needed for the project. |
+| `.env.example ` | shows the envoiment variables needed by the project |
+| `.gitignore ` | tells git which files and folders shold not be tracket |
+| `.README.md ` | contains  the project documentation |
+| `pictures/ ` | stores project screenshots |   
+| `pictures/1.png ` | screenshot of the game start |
+| `pictures/2.png ` | screenshot of the quiz section |
+| `pictures/3.png ` | screenshot of the finall result |
+| `gifes/ ` | stores demo GIF files |
+| `gifes/quiz_demo.gif ` | shoes the project demo |
 
 ## Requirments
 before runing the project make sure you have:
@@ -107,11 +120,12 @@ excelient job maria
 ## Screan shot
 ### start game
 ![Start game](pictures/1.png)
-### quiz
-![Start game](pictures/2.png)
-### final score
-![Start game](pictures/3.png)
-
+### Quiz
+![quiz](pictures/2.png)
+### Final score
+![final score](pictures/3.png)
+## Demo
+![quiz game demo](gifts/quiz_demo.gif)
 ## Roadmap
 - [x] add multiple quize question
 - [x] calculate the final score
