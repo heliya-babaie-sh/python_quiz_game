@@ -1,9 +1,7 @@
 # Python Quize Game
 A simple quize game build with python
 ## Table of contents
-
-
-- [Table of contents](#table-of-contents)  
+  
 - [Features](#features)  
 - [Project Structure](#project-structure)  
 - [Requirments](#requirments)
@@ -11,6 +9,7 @@ A simple quize game build with python
 - [Envoirment Setup](#envoirmentSetup)
 - [Usage](#usage)
 - [Roadmap](#roadmap)
+- [Screan shot](#screan-shot)
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Author](#author)
@@ -105,6 +104,14 @@ correct
 your score is:  3 out of 3
 excelient job maria
 ```
+## Screan shot
+### start game
+![Start game](pictures/1.png)
+### quiz
+![Start game](pictures/2.png)
+### final score
+![Start game](pictures/3.png)
+
 ## Roadmap
 - [x] add multiple quize question
 - [x] calculate the final score
